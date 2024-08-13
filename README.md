@@ -59,6 +59,7 @@ GLXContext rc = glbGetRC();
 #endif
 
 /* Draw something using local function pointers in the "gl" object instead of global scope. */
+yes this is the good way
 gl.glClearColor(0, 0, 0, 0);
 gl.glClear(GL_COLOR_BUFFER_BIT);
 ```
